@@ -5,12 +5,12 @@
 #include <HTTPSRedirect.h>
 
 #define IRLEDPIN 14
-#define WIFISSID "DosxOnHub"
-#define PASSWORD "22088866"
+#define WIFISSID "YOUR_SSID"
+#define PASSWORD "YOUR_WIFI_PASSWORD"
 
 #define HTTPS_PORT 443
 #define HOST "script.google.com"
-#define URL "/macros/s/AKfycbyBMBIFrLi3u8T96giB1LwuKuH8GJMmhacyD4uf/exec"
+#define URL "/macros/s/YOUR_SCRIPT_ID/exec"
 
 HTTPSRedirect* client = nullptr;
 
